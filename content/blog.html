@@ -7,11 +7,11 @@ permalink: "/blog/"
 {% assign tags = collections | getTagNames %}
 {% render "tag_list.html" with tags as tags %}
 
-<hr>
+<br>
 <div class="pages">
-  <h2><a href="/blog/page/0">...</a></h2>
+  <h2><a href="/blog/page/0">📖</a></h2>
 </div>
-<hr>
+<br>
 
 
 {% assign posts = collections.all | reverse %}
