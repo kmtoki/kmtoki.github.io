@@ -115,3 +115,9 @@ a {
   text-decoration: none;
   color: #666666;
 }
+
+blockquote {
+  padding: 1px 20px;
+  color: #eeeeee;
+  background: #777777;
+}
