@@ -117,6 +117,7 @@ a {
 }
 
 blockquote {
+  margin: 0;
   padding: 1px 20px;
   color: #eeeeee;
   background: #777777;
