@@ -117,14 +117,16 @@ a {
 }
 
 blockquote {
-  margin: 2% 0;
+  white-space: pre-wrap;
+  margin: 3% 0;
   padding: 1px 20px;
   border: 5px solid #f1f1f1;
   border-left-color: #dddddd;
 }
 
 pre {
-  margin: 2% 0;
+  white-space: pre-wrap;
+  margin: 3% 0;
   padding: 2% 20px;
   color: #666666;
   border: 2px solid #dddddd;
@@ -132,4 +134,9 @@ pre {
 
 code {
   font-family: 'Arial','Consolas';
+}
+
+iframe {
+  width: 90%;
+  height: 35%;
 }
