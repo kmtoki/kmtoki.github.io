@@ -117,8 +117,18 @@ a {
 }
 
 blockquote {
-  margin: 0;
+  margin: 2% 0;
   padding: 1px 20px;
-  color: #eeeeee;
-  background: #777777;
+  background: #e6e6e6;
+}
+
+pre {
+  margin: 2% 0;
+  padding: 2% 20px;
+  color: #776666;
+  background: #e6e6e6;
+}
+
+code {
+  font-family: 'Arial','Consolas';
 }
