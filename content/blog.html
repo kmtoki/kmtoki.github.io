@@ -4,7 +4,7 @@ permalink: "/blog/"
 ---
 {% render "base.html" %}
 
-{% assign tags = collections | getTagNames %}
+{% assign tags = selected_tags %}
 {% render "tag_list.html" with tags as tags %}
 
 <br>

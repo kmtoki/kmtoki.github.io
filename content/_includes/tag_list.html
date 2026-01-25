@@ -1,5 +1,5 @@
 <div class="tags-list">
-{% assign tags = tags | reverse %}
+{% assign tags = tags %}
 {% for tag in tags %}
   {% if tag == "all" %}
     <a class="tags-list-elem" href="/blog/tag/{{tag}}">すべて</a>
