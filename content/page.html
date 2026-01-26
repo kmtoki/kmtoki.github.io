@@ -10,7 +10,7 @@ permalink: "/blog/page/{{ pagination.pageNumber }}/"
 
 {% render "base.html" %}
 
-{% assign tags = collections | getTagNames %}
+{% assign tags = selected_tags %}
 {% render "tag_list.html" with tags as tags %}
 
 {% for post in posts %}
